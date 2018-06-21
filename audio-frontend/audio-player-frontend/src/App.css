@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(27, 2, 2);
+  padding-bottom: 2em;
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.jumbotron {
+  background-image: url('./images/music.jpg');
+  background-size: cover;
+  background-position: center;
+  color:white;
+  text-shadow: 3px 6px 9px black;
+  height: 30em;
+  width: auto;
+}
+h1 {
+  font-size: 5rem;
+}
+.playa {
+  margin: 2em;
+  padding: 2em;
+}
+
+.music {
+  padding: 1em;
+}
+
+button {
+  border-radius: 20%;
+  background-color: red;
+  margin: 0.1em;
+}
+
+button:hover{
+  box-shadow: 1px 3px 6px white;
+}
+
+.link {
+  color:red;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: white;
+}
